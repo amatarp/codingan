@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.navbar{
+	float: left;
+	width: 100%;
+}
+
+.logo{
+	width: 40%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #306bc9;
+	float: left;
+}
+
+.logo h3{
+	margin-left: 50px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.menu{
+	width: 60%;
+	background-color: #306bc9;
+	float: left;
+	height: 50px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.menu ul{
+	margin-left: 30%;
+}
+
+.menu li{
+	background-color: #306bc9;
+	width: 100px;
+	float: left;
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	transition-duration: 0.6s;
+}
+
+.menu li:hover{
+	cursor: pointer;
+	background-color: #387eed;
+}
+
+.menu li ul li{
+	position: relative;
+	right: 30px;
+	width: 150px;
+	text-align: left;
+
+}
+
+.menu li ul{
+	display: none;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+.header{
+	background: url(img/musang.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 650px;
+	background-attachment: fixed;
+}
+
+.header h2{
+	text-align: center;
+	padding-top: 150px;
+	font-size: 50px;
+	color: #114dad;
+	text-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header p{
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 100px 0 100px; 
+
+}
+
+.header h4{
+	background-color: #185cc9;
+	text-align: center;
+	margin-top: 100px;
+	height: 80px;
+	line-height: 80px;
+	width: 25%;
+	margin-left: 35%;
+}
+
+.header a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px 100px;
+}
+
+.section-1{
+	width: 100%;
+	min-height: 700px;
+	background-color: #eaeff7;
+}
+
+.section-1 .judul-section-1{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.section-1 .judul-section-1 h5{
+	font-size: 40px;
+	width: 100%;
+	float: left;
+}
+
+.section-1 .konten-section-1{
+	width: 100%;
+	padding-top: 80px;
+	float: left;
+	min-height: 500px;
+}
+
+.section-1 .konten-section-1 .isi-section-1{
+	width: 30%;
+	margin-left: 2%;
+	float: left;
+	min-height: 480px;
+	border:3px groove black;
+	transition-duration: 0.6s;
+}
+
+.section-1 .konten-section-1 .isi-section-1:hover{
+	box-shadow: 0px 0px 10px #2b9cff;
+	cursor: not-allowed;
+}
+
+.section-1 .konten-section-1 .isi-section-1 h4{
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+.section-1 .konten-section-1 .isi-section-1 img{
+	height: 150px;
+	width: 150px;
+	margin-left: 120px;
+	border-radius: 100%;
+}
+
+.section-1 .konten-section-1 .isi-section-1 p{
+	font-size: 20px;
+	font-family: calibri;
+	padding: 0 30px;
+}
+
+#section-2{
+	width: 100%;
+	float: left;
+	background-color: orange;
+	height: 650px;
+}
+
+#section-2 h2{
+	width: 100%;
+	float: left;
+	background-color: pink;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#section-2 .foto img{
+	width: 15%;
+	margin-left: 8%;
+	float: left;
+	background-color: red;
+	border-radius: 100%;
+	margin-top: 60px;
+	transition-duration: 0.6s;
+}
+
+#section-2 .foto img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
